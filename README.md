@@ -11,7 +11,7 @@ o Verified schematic connectivity, node biasing, and operating point to ensure c
 o Prepared and saved the schematic for simulation and subsequent layout implementation.
 
 
-![BandgapReference schematic](https://github.com/Deepthi-S-G/Bandgap-Reference-BGR-Layout-Design-/blob/main/Band%20Gap%20Reference%20floorplan.png)
+![BandgapReference schematic]()
 
 
 # Implementation Steps of Layout
@@ -21,7 +21,7 @@ o Ensured symmetrical arrangement of BJTs to maintain matching and temperature s
 o Allocated dedicated regions for power rails (VDD, VSS) and sensitive analog nodes.
 o Reserved spacing for routing and shielding to minimize interference.
 
-![BandgapReference Floorplan](https://github.com/Deepthi-S-G/Differential-Amplifier-UMC-180-/blob/main/Floorplan.png) 
+![BandgapReference Floorplan](https://github.com/Deepthi-S-G/Bandgap-Reference-BGR-Layout-Design-/blob/main/Band%20Gap%20Reference%20floorplan.png) 
 
 
 ### 	2. Device Placement 
