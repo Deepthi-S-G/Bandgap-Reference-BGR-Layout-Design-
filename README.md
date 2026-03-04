@@ -21,7 +21,7 @@ o Ensured symmetrical arrangement of BJTs to maintain matching and temperature s
 o Allocated dedicated regions for power rails (VDD, VSS) and sensitive analog nodes.
 o Reserved spacing for routing and shielding to minimize interference.
 
-![differential amplifier Floorplan](https://github.com/Deepthi-S-G/Differential-Amplifier-UMC-180-/blob/main/Floorplan.png) 
+![BandgapReference Floorplan](https://github.com/Deepthi-S-G/Differential-Amplifier-UMC-180-/blob/main/Floorplan.png) 
 
 
 ### 	2. Device Placement 
@@ -29,7 +29,7 @@ o Placed BJTs in common-centroid configuration to reduce mismatch due to process
 o Arranged resistors using interdigitated structures for accurate ratio matching.
 o Positioned current mirrors and bias circuits close to reduce routing complexity.
 o Maintained symmetry and proximity for all matched devices to improve precision.
-![differential amplifier Placement](https://github.com/Deepthi-S-G/Differential-Amplifier-UMC-180-/blob/main/Placement.png) 
+![BandgapReference Placement](https://github.com/Deepthi-S-G/Differential-Amplifier-UMC-180-/blob/main/Placement.png) 
 
 
 ### 3. Routing
@@ -43,13 +43,13 @@ o Performed DRC verification using Cadence Assura.
 o Ensured all layout geometries follow foundry design rules.
 o Achieved zero DRC errors, confirming manufacturability.
 
-![differential amplifier DRC ](https://github.com/Deepthi-S-G/Differential-Amplifier-UMC-180-/blob/main/drc.png) 
+![BandgapReferencer DRC ](https://github.com/Deepthi-S-G/Differential-Amplifier-UMC-180-/blob/main/drc.png) 
 
 ### 5.LVS (Layout Versus Schematic) 
 o Ran LVS to verify equivalence between schematic and layout.
 o Confirmed no mismatches in nets, pins, or devices.
 o Ensured layout accurately represents the designed BGR circuit.
-![differential amplifier LVS ](https://github.com/Deepthi-S-G/Differential-Amplifier-UMC-180-/blob/main/lvs.png) 
+![BandgapReference LVS ](https://github.com/Deepthi-S-G/Differential-Amplifier-UMC-180-/blob/main/lvs.png) 
 
 ### 6.Parasitic Extraction (PEX) 
 o Extracted parasitic resistances and capacitances from the layout.
