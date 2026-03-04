@@ -11,7 +11,7 @@ o Verified schematic connectivity, node biasing, and operating point to ensure c
 o Prepared and saved the schematic for simulation and subsequent layout implementation.
 
 
-![BandgapReference schematic]()
+![BandgapReference schematic](https://github.com/Deepthi-S-G/Bandgap-Reference-BGR-Layout-Design-/blob/main/Band%20Gap%20Reference%20schrematic.png)
 
 
 # Implementation Steps of Layout
