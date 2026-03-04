@@ -11,7 +11,7 @@ o Verified schematic connectivity, node biasing, and operating point to ensure c
 o Prepared and saved the schematic for simulation and subsequent layout implementation.
 
 
-![BandgapReference schematic](https://github.com/Deepthi-S-G/Bandgap-Reference-BGR-Layout-Design-/blob/main/Band%20Gap%20Reference%20schrematic.png)
+![BandgapReference schematic](https://github.com/Deepthi-S-G/Bandgap-Reference-BGR-Layout-Design-/blob/main/Band%20Gap%20Reference%20floorplan.png)
 
 
 # Implementation Steps of Layout
@@ -29,7 +29,7 @@ o Placed BJTs in common-centroid configuration to reduce mismatch due to process
 o Arranged resistors using interdigitated structures for accurate ratio matching.
 o Positioned current mirrors and bias circuits close to reduce routing complexity.
 o Maintained symmetry and proximity for all matched devices to improve precision.
-![BandgapReference Placement](https://github.com/Deepthi-S-G/Differential-Amplifier-UMC-180-/blob/main/Placement.png) 
+![BandgapReference Placement](https://github.com/Deepthi-S-G/Bandgap-Reference-BGR-Layout-Design-/blob/main/Band%20Gap%20Reference%20%20PLACEMENT.png) 
 
 
 ### 3. Routing
@@ -37,19 +37,22 @@ o Performed manual routing using metal layers (M1–M5) ensuring minimal parasit
 o Used wide metal paths for power lines to reduce IR drop.
 o Applied shielding (ground lines) around sensitive nodes like Vref to reduce noise coupling.
 o Inserted vias and contacts carefully while maintaining DRC-compliant spacing.
+![BandgapReference Routing](https://github.com/Deepthi-S-G/Bandgap-Reference-BGR-Layout-Design-/blob/main/Band%20Gap%20Reference%20Routing.png) 
+
+
 
 ### 4. DRC (Design Rule Check)
 o Performed DRC verification using Cadence Assura.
 o Ensured all layout geometries follow foundry design rules.
 o Achieved zero DRC errors, confirming manufacturability.
 
-![BandgapReferencer DRC ](https://github.com/Deepthi-S-G/Differential-Amplifier-UMC-180-/blob/main/drc.png) 
+![BandgapReferencer DRC ](https://github.com/Deepthi-S-G/Bandgap-Reference-BGR-Layout-Design-/blob/main/Band%20Gap%20Reference%20DRC.png) 
 
 ### 5.LVS (Layout Versus Schematic) 
 o Ran LVS to verify equivalence between schematic and layout.
 o Confirmed no mismatches in nets, pins, or devices.
 o Ensured layout accurately represents the designed BGR circuit.
-![BandgapReference LVS ](https://github.com/Deepthi-S-G/Differential-Amplifier-UMC-180-/blob/main/lvs.png) 
+![BandgapReference LVS ]() 
 
 ### 6.Parasitic Extraction (PEX) 
 o Extracted parasitic resistances and capacitances from the layout.
