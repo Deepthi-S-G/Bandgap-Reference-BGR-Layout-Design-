@@ -1,2 +1,2 @@
 # Bandgap-Reference-BGR-Layout-Design-
-Layout design of a Bandgap Reference circuit focusing on precision analog layout and matching techniques.
+Designed and implemented the physical layout of a Bandgap Reference (BGR) circuit with a strong focus on precision, matching, and noise performance. The layout ensures stable and temperature-independent reference voltage generation through careful symmetry techniques.
